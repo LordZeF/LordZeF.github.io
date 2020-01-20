@@ -1,0 +1,108 @@
+html{
+  scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+}
+.parallax1 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/RedDot_Burger.jpg/1200px-RedDot_Burger.jpg");
+  height: 100vh; 
+  opacity: .89;
+}
+
+.first {
+    height:85vh;
+    background-image: url("https://www.randomrepublika.com/wp-content/uploads/2015/10/Jollibee-commercial-nadine-lustre.png");  
+    background-repeat: no-repeat;
+
+}
+
+.parallax2 {
+  background-image: url("https://images.unsplash.com/photo-1477617722074-45613a51bf6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  height: 100vh; 
+}
+
+.second {
+    height:100vh;
+    background-image: url("http://www.servingeurope.com/img/home_selection/eating_burger.jpg");
+
+}
+
+.parallax1, .parallax2 {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+/*NAVBAR*/
+
+#navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 4;
+}
+.nav-ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin:0;
+  height: 60px;
+}
+.nav-ul a {
+  text-decoration: none;
+  font-size: 24px;
+  color: #fff;
+  font-family:sans-serif, cursive;
+  color: white  ;
+}
+nav li {
+padding:17px;
+list-style: none;
+}
+
+.nav-ul a:hover {
+    color:rgb(250, 34, 34);
+    transition: .9s;
+}
+
+.logo { 
+height: 80px;
+width: 80px;
+}
+
+.first {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-size: 50px;
+  color: #fff;
+}
+.image1 { 
+  height: 100vh;
+}
+
+/*FOOTER*/
+
+footer li {
+ list-style: none;
+ padding: 18px;
+}
+#profile-link {
+  font-size: 26px;
+  color:white;
+  text-decoration: none;
+  font-family: 'Fredericka the Great', cursive;
+}
+#profile-link:hover {
+  color:rgb(216, 8, 36);
+  transition: .9s;
+}
+.nav-footer ul {
+  display: flex;
+  justify-content: center;
+
+}
