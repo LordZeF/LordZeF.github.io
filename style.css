@@ -19,14 +19,15 @@ html{
 }
 
 .parallax2 {
-  background-image: url("https://images.unsplash.com/photo-1477617722074-45613a51bf6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-image: url("http://www.servingeurope.com/img/home_selection/eating_burger.jpg");
   height: 100vh; 
 }
 
 .second {
     height:100vh;
-    background-image: url("http://www.servingeurope.com/img/home_selection/eating_burger.jpg");
-
+    background-image: url("https://images.unsplash.com/photo-1477617722074-45613a51bf6d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .parallax1, .parallax2 {
@@ -104,5 +105,4 @@ footer li {
 .nav-footer ul {
   display: flex;
   justify-content: center;
-
 }
